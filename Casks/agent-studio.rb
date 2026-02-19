@@ -1,5 +1,5 @@
 cask "agent-studio" do
-  version "0.0.9"
+  version "0.0.11"
   sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
   url "https://github.com/ShravanSunder/agentstudio/releases/download/v#{version}/AgentStudio-v#{version}-macos.zip"
@@ -8,7 +8,6 @@ cask "agent-studio" do
   homepage "https://github.com/ShravanSunder/agentstudio"
 
   depends_on macos: ">= :sonoma"
-  depends_on formula: "tmux"
 
   app "AgentStudio.app"
 
