@@ -1,6 +1,6 @@
 cask "agent-studio@beta" do
-  version "0.0.99-beta.51"
-  sha256 "44ee47f00bfed5f051d3f75668f06a68cb79f44bca9172b134c4047797e5d434"
+  version "0.0.101-beta.53"
+  sha256 "261adc11aa8eeef01b6f794fd2e507f0180e6eebcb7a9f7789146a64b0206d2d"
 
   url "https://github.com/ShravanSunder/agentstudio/releases/download/v#{version}/AgentStudio-v#{version}-macos.zip"
   name "Agent Studio Beta"
