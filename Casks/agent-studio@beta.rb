@@ -1,11 +1,11 @@
 cask "agent-studio@beta" do
-  version "0.0.105-beta.71"
-  sha256 "3450dccce771c6d9824bb63a11919b20fbe8e284c78521c6b454b795b9aa09e7"
+  version "0.0.105-beta.74"
+  sha256 "e00995fb69ed83341265af3ea98871df043c7e7eba5db51fd3684d2d2863da16"
 
-  url "https://github.com/ShravanSunder/agentstudio/releases/download/v#{version}/AgentStudio-v#{version}-macos.zip"
+  url "https://github.com/getagentstudio/agentstudio/releases/download/v#{version}/AgentStudio-v#{version}-macos.zip"
   name "Agent Studio Beta"
   desc "Terminal application with Ghostty terminal emulator and project management"
-  homepage "https://github.com/ShravanSunder/agentstudio"
+  homepage "https://github.com/getagentstudio/agentstudio"
 
   depends_on macos: :tahoe
 
